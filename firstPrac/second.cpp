@@ -3,8 +3,8 @@
 
 int main()
 {
-    short int number = 0xFF12; 
-    short int mask = 0xC07F; 
+    short int number = 0xFF12;
+    short int mask = 0xF8FF;
 
     std::cout << "Number: \t" << std::bitset<16>(number) << "\n";
     std::cout << "Mask:   \t" << std::bitset<16>(mask) << "\n";
